@@ -1,5 +1,5 @@
 print("Welcome to the Hogwarts Sorting Hat!")
-trait = input("What trait best describes you?")
+trait = input("What trait best describes you?").lower()
 if trait == "brave":
     print("You belong in Gryffindor!")
 elif trait == "loyal":
