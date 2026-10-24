@@ -1,4 +1,12 @@
 print("Welcome to the Hogwarts Sorting Hat!")
-bravery = input("Are you brave? (yes/no): ")
-if bravery == "yes":
-    print("Gryffindor!")
+trait = input("What trait best describes you?")
+if trait == "brave":
+    print("You belong in Gryffindor!")
+elif trait == "loyal":
+    print("You belong in Hufflepuff!")
+elif trait == "intelligent":
+    print("You belong in Ravenclaw!")
+elif trait == "ambitious":
+    print("You belong in Slytherin!")
+else:
+    print("I'm not sure which house you belong in.")
